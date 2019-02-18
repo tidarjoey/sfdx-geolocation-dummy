@@ -5,7 +5,7 @@
     </div>
 
     <div>
-      AccountList goes here
+      <c.AccountList />
     </div>
   </div>
 </aura:component>
