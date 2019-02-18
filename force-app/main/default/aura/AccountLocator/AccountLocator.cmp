@@ -1,0 +1,11 @@
+<aura:component>
+  <div class="">
+    <div class="">
+      AccounntMap goes here
+    </div>
+
+    <div class="">
+      AccountList goes here
+    </div>
+  </div>
+</aura:component>
