@@ -22,7 +22,7 @@
   </types>
   <types>
     <name>CustomField</name>
-    <members>*</members>
+    <members>Account.Location__c</members>
   </types>
   <types>
     <name>PermissionSet</name>
