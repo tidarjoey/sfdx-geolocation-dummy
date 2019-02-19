@@ -7,6 +7,7 @@
       }).addTo(map);
     component.set("v.map", map);
   },
+
   accountsLoaded: function(component, event, _helper) {
     var map = component.get('v.map');
     var accounts = event.getParam('accounts');
@@ -15,5 +16,11 @@
       var latLng = [account.Location__Latitude__s, account.Location__Longitude__s];
       L.marker(latLng, { account: account }).addTo(map);
     }
+  },
+
+  accountSelected: function() {
+    var map = component.get('v.map');
+    var account = event.getParam('account');
+    map.panTo([account.Location__Latitude__s, account.Location__Longitude__s]);
   }
 })
