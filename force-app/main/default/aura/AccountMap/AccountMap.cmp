@@ -2,7 +2,7 @@
   <aura:attribute name="map" type="object" />
   <ltng:require
     styles="/staticresources/leaflet/leaflet.css"
-    script="/staticresources/leaflet/leaflet.js"
+    scripts="/staticresources/leaflet/leaflet.js"
     afterScriptsLoaded="{!c.jsLoaded}"
   />
 
