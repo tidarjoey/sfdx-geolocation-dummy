@@ -1,0 +1,48 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Hyatt",
+            "Location__c": {
+                "latitude": 37.794157,
+                "longitude": -122.396311
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Hilton Union Square",
+            "Location__c": {
+                "latitude": 37.786164,
+                "longitude": -122.410137
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Royal Orchid",
+            "Location__c": {
+                "latitude": 12.9625352,
+                "longitude": 77.644154
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "Marriott Marquis",
+            "Location__c": {
+                "latitude": 37.785143,
+                "longitude": -122.403405
+            }
+        }
+    ]
+}
