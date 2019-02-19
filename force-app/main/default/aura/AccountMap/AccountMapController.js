@@ -18,7 +18,7 @@
     }
   },
 
-  accountSelected: function() {
+  accountSelected: function(component, event, _helper) {
     var map = component.get('v.map');
     var account = event.getParam('account');
     map.panTo([account.Location__Latitude__s, account.Location__Longitude__s]);
