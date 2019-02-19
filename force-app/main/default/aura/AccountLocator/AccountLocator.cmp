@@ -1,7 +1,7 @@
 <aura:component implements="force:appHostable">
   <div>
     <div>
-      AccounntMap goes here testing
+      <c:AccountMap />
     </div>
 
     <div>
